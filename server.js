@@ -1,7 +1,6 @@
 // Import the Express and Socket.IO modules
 const express = require('express');
 const socket = require('socket.io');
-const port = 8080;
 
 // Create a new Express app
 const app = express();
