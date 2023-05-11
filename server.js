@@ -1,14 +1,14 @@
 // Import the Express and Socket.IO modules
 const express = require('express');
 const socket = require('socket.io');
-const port = 8080;
+const PORT = 8080;
 
 // Create a new Express app
 const app = express();
 // Start the Express server on port 3000 and log a message to the console
 
-const server = app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+const server = app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 })
 
 // Serve static files from the 'public' directory
