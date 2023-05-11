@@ -6,7 +6,7 @@ const socket = require('socket.io');
 const app = express();
 // Start the Express server on port 3000 and log a message to the console
 const server = app.listen(3000, () => {
-    console.log('Sunucu başlatıldı. Port: 3000');
+    console.log('Server started. Port: 3000');
 });
 
 // Serve static files from the 'public' directory
