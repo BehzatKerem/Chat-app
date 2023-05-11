@@ -8,7 +8,7 @@ const app = express();
 // Start the Express server on port 3000 and log a message to the console
 const server = app.listen(3000, () => {
     console.log('Server started. Port: 3000');
-}
+})
 
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
